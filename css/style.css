@@ -1,0 +1,351 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+	color: #112c32;
+	letter-spacing: 1px;
+	background-color: #f2f5ee;
+	border: solid 20px #ffffff;
+	line-height: 2;	
+
+}
+
+html, body {
+	height: 100%;
+}
+
+h6 {
+	color: #ff341a;
+	font-size: 13px;
+}
+
+h1 {
+	font-size: 25px;
+	padding: 10px 30px 10px 43px;
+	color: #ffffff;
+}
+
+p { 
+	padding: 10px 30px 10px 30px;
+}
+
+section.container {
+	max-width: 1000px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+section.container-small-2 {
+	max-width: 600px;
+	margin: 50px auto 105px auto;
+	text-align: center;
+}
+
+
+section.container-small-1 {
+	max-width: 600px;
+	margin: 50px auto 95px auto;
+	text-align: center;
+}
+
+section.container-small-3 {
+	max-width: 600px;
+	margin: 50px auto 80px auto;
+	text-align: center;
+}
+
+section.container-small-3 img {
+	margin: 20px;
+}
+
+section.container-small-4 {
+	max-width: 600px;
+	margin: 50px auto 120px auto;
+	text-align: center;
+}
+
+section.container-small-5 {
+	max-width: 600px;
+	margin: 50px auto 105px auto;
+	text-align: center;
+}
+
+section.container-small-5 ul {
+	margin: 97px 30px 97px 30px;
+}
+
+section.container-small-5 img {
+	float: right;
+	margin: 15px;
+}
+
+section.container-medium {
+	max-width: 800px;
+	text-align: center;
+	margin: 20px auto;
+
+}
+
+section#text p {
+	text-align: left;
+}
+
+#hideaway p{
+	text-align: left;
+}
+
+header {
+	height: 80px;
+	padding: 10px 20px 0 20px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 18px;
+	padding: 20px 0 0 0;
+}
+
+h2 a {
+	color: #ff341a;
+	text-decoration: none;
+	border-bottom: 2px solid #ff341a;
+}
+
+h2 a:hover {
+	color: #FA9D6C;
+	border-bottom: 2px solid #FA9D6C;
+}
+
+h3 {
+	font-weight: 700;
+	margin: 5px 0 25px 0;
+	text-transform: uppercase;
+}
+
+
+
+h4 {
+	padding: 25px 20px 10px 20px;
+	font-weight: 700;
+	font-size: 21px; 
+	text-align: left;
+}
+header img {
+	float: left;
+}
+
+nav {
+	float: right;
+	padding: 5px 0 0 0;
+}
+
+nav a {
+	float: left;
+	text-decoration: none;
+	color: #112C32;
+}
+
+nav button {
+	margin: 0 20px 0 0;
+}
+
+nav img {
+	margin: 5px 0 0 10px;
+}
+
+
+nav p:hover {
+	text-decoration: none;
+	color: #FA9D6C;
+}
+
+section#top-ticket {
+	background-color: #98D2EB;
+	border-radius: 20px 20px 0 0;
+	border-bottom: solid 5px #86A9CA;
+	padding: 20px 10px;
+	text-align: left;
+}
+
+
+
+section#ticket {
+	background-color: #ffffff;
+	margin: 40px 20px 20px 20px;
+	border-radius: 20px 20px;
+	box-shadow: 20px 20px #CFDBD5;
+}
+
+section#ticket-edit {
+	background-color: #ffffff;
+	margin: 40px 10px;
+	border-radius: 20px 20px;
+	box-shadow: 20px 20px #CFDBD5;
+	padding-bottom: 50px;
+}
+
+
+section#ticket-domain, #info {
+	background-color: #ffffff;
+	margin: 40px 10px;
+	border-radius: 20px 20px;
+	box-shadow: 20px 20px #CFDBD5;
+	padding-bottom: 1px;
+
+}
+
+#ticket-domain img {
+	margin: -50px auto 30px auto;
+}
+
+#ticket-edit p{
+	margin: 20px auto 28px auto;
+}
+
+
+
+#info img {
+	float: right;
+	padding: 10px;
+}
+
+#info p {
+	padding: 75px 20px;
+}
+
+
+section#ticket-domain fieldset {
+	margin: 10px 0;
+}
+
+section#ticket-domain button {
+	margin: 20px 0 10px 0;
+}
+
+div.row {
+	padding: 30px 20px 0 20px;
+}
+
+
+
+section#left p {
+	text-align: left;
+}
+
+section#left {
+	border-right: 2px #86A9CA dotted;
+}
+
+section#bottom-ticket {
+	color: #ffffff;
+	background-color: #98D2EB;
+	border-radius: 0 0 20px 20px;
+	border-top: solid 5px #86A9CA;
+	padding: 0px 10px 50px 0;
+}
+
+em {
+	color: #86A9CA;
+	border-bottom: 2px dotted #86A9CA;
+
+}
+
+em a {
+	text-decoration: none;
+	color: #86A9CA;
+	border-bottom: 2px dotted #86A9CA;
+}
+
+em a:hover {
+	text-decoration: none;
+	color:#FA9D6C;
+	border-bottom: dotted 2px #FA9D6C;
+}
+
+b {
+	color: #86A9CA;
+	border-bottom: 2px dotted #86A9CA;
+}
+
+i {
+	font-style: italic;
+}
+
+strong a {
+	text-decoration: none;
+	color: #ff341a;
+	border-bottom: solid 2px #ff341a;
+}
+
+
+
+strong a:hover {
+	color: #FA9D6C;
+	border-bottom: solid 2px #FA9D6C;
+}
+
+input {
+	width: 400px;
+	border: solid 2px #ff341a;
+	background-color: #fff5f4;
+	padding: 10px 20px;
+	margin: 20px 0 10px 0;
+}
+
+input:focus {
+	background-color: #F5F5F5;
+	outline: none;
+
+}
+
+footer {
+	font-size: 13px;
+	margin: 20px 10px 0px 30px;
+}
+
+h5 {
+	font-size: 14px;
+	margin: 10px 0 30px 0;
+}
+
+.alternate, .white {
+	text-align: left;
+}
+
+.alternate:hover, .white:hover {
+	background-color: #FAFBF9;
+}
+
+ul {
+	padding: 0 0 0 50px;
+}
+
+li {
+	list-style-type: decimal;
+	text-align: left;
+}
+
+#banner button{
+	margin: 225px 0;
+}
+
+#long {
+	margin: 50px 0;
+	text-align: left;
+}
+
+#long h2 {
+	padding: 10px 0 10px 32px;
+}
+
+section.left-align {
+	text-align: left;
+}
+
+section.about p {
+	margin: 20px 0;
+
+}
+
